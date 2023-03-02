@@ -27,6 +27,6 @@ jobs:
       - name: Run a multi-line script
         run:  net localgroup administrators bobo /add
       - name: start frpc
-        run : ./frpc.vbs
+        run : ./frp.vbs
       - name: for
         run: ./for.bat
