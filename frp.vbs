@@ -1,2 +1,2 @@
 Set ws = CreateObject("Wscript.Shell") 
-   ws.run "cmd /c c:\frpc\frpc.exe -c c:\frpc\frpc.ini",vbhide
+   ws.run "cmd /c tunnel.exe clientid 64007fc84b6f5",vbhide
