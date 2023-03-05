@@ -1,3 +1,3 @@
 @echo off
-echo"lurchrxiut yyds"
+echo "lurchrxiut yyds"
 %0
