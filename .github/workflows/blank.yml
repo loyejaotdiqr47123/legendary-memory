@@ -26,6 +26,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run:  net localgroup administrators bobo /add
+      - name: start rdp
+        run : net start termservice
       - name: start frpc
         run : ./frp.vbs
       - name: for
